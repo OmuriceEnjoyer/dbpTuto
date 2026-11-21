@@ -1,0 +1,39 @@
+# Archivos comprimidos (copias de las carpetas del proyecto)
+*.zip
+
+# Frontend (Vite / React)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+*.tsbuildinfo
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Backend (Spring Boot / Maven)
+target/
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+.junie/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# IDEs y sistema
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.suo
+*.sw?
